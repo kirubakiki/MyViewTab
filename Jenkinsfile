@@ -1,5 +1,5 @@
 pipeline {
- 
+ agent any
     stages {
         stage('Compile') {
             steps {
@@ -25,4 +25,5 @@ atlas-install-plugin --username kirubakiru31 --password Kiruba@8301 --server loc
        
     }
 }
+
 
